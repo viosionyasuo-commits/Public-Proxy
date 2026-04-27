@@ -1,0 +1,160 @@
+# Direct routing rules for academic access, campus IP verification,
+# mainland China streaming, and mainland China daily services.
+#
+# Remote URL:
+# https://raw.githubusercontent.com/viosionyasuo-commits/Public-Proxy/main/rules.yaml
+
+rules:
+  # Campus and education domains
+  - DOMAIN-SUFFIX,edu.cn,DIRECT
+  - DOMAIN-SUFFIX,ac.cn,DIRECT
+  - DOMAIN-SUFFIX,cernet.edu.cn,DIRECT
+  - DOMAIN-SUFFIX,cnki.net,DIRECT
+  - DOMAIN-SUFFIX,wanfangdata.com.cn,DIRECT
+  - DOMAIN-SUFFIX,cqvip.com,DIRECT
+  - DOMAIN-SUFFIX,chaoxing.com,DIRECT
+  - DOMAIN-SUFFIX,duxiu.com,DIRECT
+  - DOMAIN-SUFFIX,sslibrary.com,DIRECT
+
+  # Academic indexes and discovery platforms
+  - DOMAIN-SUFFIX,scopus.com,DIRECT
+  - DOMAIN-SUFFIX,webofscience.com,DIRECT
+  - DOMAIN-SUFFIX,clarivate.com,DIRECT
+  - DOMAIN-SUFFIX,incites.clarivate.com,DIRECT
+  - DOMAIN-SUFFIX,dimensions.ai,DIRECT
+  - DOMAIN-SUFFIX,semanticscholar.org,DIRECT
+  - DOMAIN-SUFFIX,crossref.org,DIRECT
+  - DOMAIN-SUFFIX,doi.org,DIRECT
+  - DOMAIN-SUFFIX,orcid.org,DIRECT
+  - DOMAIN-SUFFIX,worldcat.org,DIRECT
+
+  # Academic publishers and full-text platforms
+  - DOMAIN-SUFFIX,elsevier.com,DIRECT
+  - DOMAIN-SUFFIX,sciencedirect.com,DIRECT
+  - DOMAIN-SUFFIX,cell.com,DIRECT
+  - DOMAIN-SUFFIX,thelancet.com,DIRECT
+  - DOMAIN-SUFFIX,springer.com,DIRECT
+  - DOMAIN-SUFFIX,springernature.com,DIRECT
+  - DOMAIN-SUFFIX,link.springer.com,DIRECT
+  - DOMAIN-SUFFIX,nature.com,DIRECT
+  - DOMAIN-SUFFIX,wiley.com,DIRECT
+  - DOMAIN-SUFFIX,onlinelibrary.wiley.com,DIRECT
+  - DOMAIN-SUFFIX,tandfonline.com,DIRECT
+  - DOMAIN-SUFFIX,taylorfrancis.com,DIRECT
+  - DOMAIN-SUFFIX,ieee.org,DIRECT
+  - DOMAIN-SUFFIX,ieeexplore.ieee.org,DIRECT
+  - DOMAIN-SUFFIX,acm.org,DIRECT
+  - DOMAIN-SUFFIX,dl.acm.org,DIRECT
+  - DOMAIN-SUFFIX,acs.org,DIRECT
+  - DOMAIN-SUFFIX,pubs.acs.org,DIRECT
+  - DOMAIN-SUFFIX,rsc.org,DIRECT
+  - DOMAIN-SUFFIX,royalsocietypublishing.org,DIRECT
+  - DOMAIN-SUFFIX,oup.com,DIRECT
+  - DOMAIN-SUFFIX,academic.oup.com,DIRECT
+  - DOMAIN-SUFFIX,cambridge.org,DIRECT
+  - DOMAIN-SUFFIX,sagepub.com,DIRECT
+  - DOMAIN-SUFFIX,journals.sagepub.com,DIRECT
+  - DOMAIN-SUFFIX,emerald.com,DIRECT
+  - DOMAIN-SUFFIX,annualreviews.org,DIRECT
+  - DOMAIN-SUFFIX,jstor.org,DIRECT
+  - DOMAIN-SUFFIX,degruyter.com,DIRECT
+  - DOMAIN-SUFFIX,mitpressjournals.org,DIRECT
+  - DOMAIN-SUFFIX,projecteuclid.org,DIRECT
+  - DOMAIN-SUFFIX,frontiersin.org,DIRECT
+  - DOMAIN-SUFFIX,mdpi.com,DIRECT
+  - DOMAIN-SUFFIX,plos.org,DIRECT
+  - DOMAIN-SUFFIX,biomedcentral.com,DIRECT
+  - DOMAIN-SUFFIX,bmj.com,DIRECT
+  - DOMAIN-SUFFIX,nejm.org,DIRECT
+  - DOMAIN-SUFFIX,jamanetwork.com,DIRECT
+  - DOMAIN-SUFFIX,science.org,DIRECT
+  - DOMAIN-SUFFIX,sciencemag.org,DIRECT
+
+  # Academic databases and aggregators
+  - DOMAIN-SUFFIX,ebsco.com,DIRECT
+  - DOMAIN-SUFFIX,ebscohost.com,DIRECT
+  - DOMAIN-SUFFIX,proquest.com,DIRECT
+  - DOMAIN-SUFFIX,gale.com,DIRECT
+  - DOMAIN-SUFFIX,oclc.org,DIRECT
+  - DOMAIN-SUFFIX,heinonline.org,DIRECT
+  - DOMAIN-SUFFIX,westlaw.com,DIRECT
+  - DOMAIN-SUFFIX,lexisnexis.com,DIRECT
+  - DOMAIN-SUFFIX,reaxys.com,DIRECT
+  - DOMAIN-SUFFIX,scifinder.cas.org,DIRECT
+  - DOMAIN-SUFFIX,cas.org,DIRECT
+
+  # Biomedical and public research resources
+  - DOMAIN-SUFFIX,ncbi.nlm.nih.gov,DIRECT
+  - DOMAIN-SUFFIX,pubmed.ncbi.nlm.nih.gov,DIRECT
+  - DOMAIN-SUFFIX,nih.gov,DIRECT
+  - DOMAIN-SUFFIX,clinicaltrials.gov,DIRECT
+  - DOMAIN-SUFFIX,who.int,DIRECT
+  - DOMAIN-SUFFIX,un.org,DIRECT
+  - DOMAIN-SUFFIX,oecd.org,DIRECT
+  - DOMAIN-SUFFIX,worldbank.org,DIRECT
+
+  # Mainland China video and streaming
+  - DOMAIN-SUFFIX,v.qq.com,DIRECT
+  - DOMAIN-SUFFIX,tencentvideo.com,DIRECT
+  - DOMAIN-SUFFIX,qpic.cn,DIRECT
+  - DOMAIN-SUFFIX,video.qq.com,DIRECT
+  - DOMAIN-SUFFIX,iqiyi.com,DIRECT
+  - DOMAIN-SUFFIX,qiyi.com,DIRECT
+  - DOMAIN-SUFFIX,youku.com,DIRECT
+  - DOMAIN-SUFFIX,ykimg.com,DIRECT
+  - DOMAIN-SUFFIX,mgtv.com,DIRECT
+  - DOMAIN-SUFFIX,bilibili.com,DIRECT
+  - DOMAIN-SUFFIX,bilivideo.com,DIRECT
+  - DOMAIN-SUFFIX,acgvideo.com,DIRECT
+  - DOMAIN-SUFFIX,miguvideo.com,DIRECT
+  - DOMAIN-SUFFIX,migu.cn,DIRECT
+  - DOMAIN-SUFFIX,cctv.com,DIRECT
+  - DOMAIN-SUFFIX,cntv.cn,DIRECT
+  - DOMAIN-SUFFIX,yangshipin.cn,DIRECT
+  - DOMAIN-SUFFIX,le.com,DIRECT
+  - DOMAIN-SUFFIX,pptv.com,DIRECT
+  - DOMAIN-SUFFIX,ixigua.com,DIRECT
+
+  # Mainland China daily services
+  - DOMAIN-SUFFIX,qq.com,DIRECT
+  - DOMAIN-SUFFIX,weixin.qq.com,DIRECT
+  - DOMAIN-SUFFIX,wechat.com,DIRECT
+  - DOMAIN-SUFFIX,tencent.com,DIRECT
+  - DOMAIN-SUFFIX,gtimg.com,DIRECT
+  - DOMAIN-SUFFIX,alicdn.com,DIRECT
+  - DOMAIN-SUFFIX,aliyun.com,DIRECT
+  - DOMAIN-SUFFIX,alipay.com,DIRECT
+  - DOMAIN-SUFFIX,taobao.com,DIRECT
+  - DOMAIN-SUFFIX,tmall.com,DIRECT
+  - DOMAIN-SUFFIX,1688.com,DIRECT
+  - DOMAIN-SUFFIX,baidu.com,DIRECT
+  - DOMAIN-SUFFIX,bdstatic.com,DIRECT
+  - DOMAIN-SUFFIX,jd.com,DIRECT
+  - DOMAIN-SUFFIX,360buyimg.com,DIRECT
+  - DOMAIN-SUFFIX,meituan.com,DIRECT
+  - DOMAIN-SUFFIX,dianping.com,DIRECT
+  - DOMAIN-SUFFIX,douyin.com,DIRECT
+  - DOMAIN-SUFFIX,iesdouyin.com,DIRECT
+  - DOMAIN-SUFFIX,kuaishou.com,DIRECT
+  - DOMAIN-SUFFIX,xiaohongshu.com,DIRECT
+  - DOMAIN-SUFFIX,xhscdn.com,DIRECT
+  - DOMAIN-SUFFIX,163.com,DIRECT
+  - DOMAIN-SUFFIX,126.net,DIRECT
+  - DOMAIN-SUFFIX,weibo.com,DIRECT
+  - DOMAIN-SUFFIX,sina.com.cn,DIRECT
+  - DOMAIN-SUFFIX,zhihu.com,DIRECT
+  - DOMAIN-SUFFIX,zhimg.com,DIRECT
+  - DOMAIN-SUFFIX,douban.com,DIRECT
+  - DOMAIN-SUFFIX,sohu.com,DIRECT
+  - DOMAIN-SUFFIX,sogou.com,DIRECT
+  - DOMAIN-SUFFIX,mi.com,DIRECT
+  - DOMAIN-SUFFIX,xiaomi.com,DIRECT
+  - DOMAIN-SUFFIX,huawei.com,DIRECT
+  - DOMAIN-SUFFIX,huaweicloud.com,DIRECT
+  - DOMAIN-SUFFIX,oppo.com,DIRECT
+  - DOMAIN-SUFFIX,vivo.com,DIRECT
+
+  # Mainland China public suffixes and network ranges
+  - DOMAIN-SUFFIX,cn,DIRECT
+  - DOMAIN-SUFFIX,gov.cn,DIRECT
+  - GEOIP,CN,DIRECT
