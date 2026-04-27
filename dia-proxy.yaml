@@ -1,0 +1,67 @@
+# Proxy routing rules for Dia browser startup, account, sync, AI, update,
+# feature flag, and diagnostics services.
+#
+# Remote URL:
+# https://raw.githubusercontent.com/viosionyasuo-commits/Public-Proxy/main/dia-proxy.yaml
+#
+# If your client uses a custom proxy group name, replace PROXY with that group.
+
+rules:
+  # Dia official sites and app services
+  - DOMAIN-SUFFIX,diabrowser.com,PROXY
+  - DOMAIN-SUFFIX,diabrowser.engineering,PROXY
+  - DOMAIN-SUFFIX,status.diabrowser.com,PROXY
+  - DOMAIN-SUFFIX,help.diabrowser.com,PROXY
+  - DOMAIN-SUFFIX,trust.diabrowser.com,PROXY
+  - DOMAIN-SUFFIX,releases.diabrowser.com,PROXY
+
+  # The Browser Company / Arc shared infrastructure
+  - DOMAIN-SUFFIX,arc.net,PROXY
+  - DOMAIN-SUFFIX,resources.arc.net,PROXY
+  - DOMAIN-SUFFIX,start.arc.net,PROXY
+  - DOMAIN-SUFFIX,content.arc.net,PROXY
+  - DOMAIN-SUFFIX,browsercompany.com,PROXY
+  - DOMAIN-SUFFIX,thebrowser.company,PROXY
+  - DOMAIN-SUFFIX,browserinternal.com,PROXY
+  - DOMAIN-SUFFIX,browserinternalsandbox.com,PROXY
+  - DOMAIN-SUFFIX,browserco.typeform.com,PROXY
+  - DOMAIN-SUFFIX,thebrowsercompany.zendesk.com,PROXY
+
+  # Dia account, sync, AI, tools, feedback, and web-result proxy endpoints
+  - DOMAIN-SUFFIX,account.diabrowser.engineering,PROXY
+  - DOMAIN-SUFFIX,dia-sync.diabrowser.engineering,PROXY
+  - DOMAIN-SUFFIX,ai-service.diabrowser.engineering,PROXY
+  - DOMAIN-SUFFIX,ai-service-eval.diabrowser.engineering,PROXY
+  - DOMAIN-SUFFIX,ai-service.staging.diabrowser.engineering,PROXY
+  - DOMAIN-SUFFIX,aiproxy.diabrowser.engineering,PROXY
+  - DOMAIN-SUFFIX,webresultproxy.diabrowser.engineering,PROXY
+  - DOMAIN-SUFFIX,websearch.diabrowser.engineering,PROXY
+  - DOMAIN-SUFFIX,assistant-feedback.diabrowser.engineering,PROXY
+  - DOMAIN-SUFFIX,artifactcdn.diabrowser.engineering,PROXY
+  - DOMAIN-SUFFIX,dia-blocklists-release.diabrowser.engineering,PROXY
+  - DOMAIN-SUFFIX,skills.diabrowser.engineering,PROXY
+  - DOMAIN-SUFFIX,tools-cache.diabrowser.engineering,PROXY
+  - DOMAIN-SUFFIX,trace-warehouse.diabrowser.engineering,PROXY
+  - DOMAIN-SUFFIX,referrals.diabrowser.engineering,PROXY
+
+  # Login and AI-provider related endpoints Dia may depend on
+  - DOMAIN,accounts.google.com,PROXY
+  - DOMAIN-SUFFIX,googleapis.com,PROXY
+  - DOMAIN-SUFFIX,gstatic.com,PROXY
+  - DOMAIN-SUFFIX,openai.com,PROXY
+  - DOMAIN-SUFFIX,chatgpt.com,PROXY
+  - DOMAIN-SUFFIX,anthropic.com,PROXY
+  - DOMAIN-SUFFIX,claude.ai,PROXY
+  - DOMAIN-SUFFIX,perplexity.ai,PROXY
+  - DOMAIN-SUFFIX,openaipublic.blob.core.windows.net,PROXY
+
+  # Feature flags, diagnostics, and crash reporting used by Dia
+  - DOMAIN-SUFFIX,launchdarkly.com,PROXY
+  - DOMAIN-SUFFIX,sentry.io,PROXY
+  - DOMAIN-SUFFIX,datadoghq.com,PROXY
+  - DOMAIN-SUFFIX,browser-intake-datadoghq.com,PROXY
+  - DOMAIN-SUFFIX,browser-intake-ap1-datadoghq.com,PROXY
+  - DOMAIN-SUFFIX,browser-intake-us3-datadoghq.com,PROXY
+  - DOMAIN-SUFFIX,browser-intake-us5-datadoghq.com,PROXY
+  - DOMAIN-SUFFIX,browser-intake-datadoghq.eu,PROXY
+  - DOMAIN-SUFFIX,browser-intake-ddog-gov.com,PROXY
