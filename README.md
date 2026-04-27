@@ -12,6 +12,12 @@ Use this URL in the client:
 https://raw.githubusercontent.com/viosionyasuo-commits/Public-Proxy/main/rules.yaml
 ```
 
+Dia browser proxy rules:
+
+```text
+https://raw.githubusercontent.com/viosionyasuo-commits/Public-Proxy/main/dia-proxy.yaml
+```
+
 ## Goal
 
 These rules force selected domains to use `DIRECT`, so services that depend on campus IP, mainland China IP, or local copyright regions are not accidentally routed through proxy nodes.
@@ -45,3 +51,5 @@ rules:
   - DOMAIN-SUFFIX,scopus.com,DIRECT
   - DOMAIN-SUFFIX,webofscience.com,DIRECT
 ```
+
+`dia-proxy.yaml` uses the same format, but routes Dia-related domains to `PROXY`.
