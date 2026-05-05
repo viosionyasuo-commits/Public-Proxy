@@ -18,6 +18,12 @@ Dia browser proxy rules:
 https://raw.githubusercontent.com/viosionyasuo-commits/Public-Proxy/main/dia-proxy.yaml
 ```
 
+DeepSeek API direct rules:
+
+```text
+https://raw.githubusercontent.com/viosionyasuo-commits/Public-Proxy/main/deepseek-proxy.yaml
+```
+
 ## Goal
 
 These rules force selected domains to use `DIRECT`, so services that depend on campus IP, mainland China IP, or local copyright regions are not accidentally routed through proxy nodes.
@@ -53,3 +59,5 @@ rules:
 ```
 
 `dia-proxy.yaml` uses the same format, but routes Dia-related domains to `PROXY`.
+
+`deepseek-proxy.yaml` routes `api.deepseek.com` to `DIRECT`, including the `/anthropic` endpoint on the same host.
