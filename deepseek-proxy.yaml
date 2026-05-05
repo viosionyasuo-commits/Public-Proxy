@@ -1,0 +1,11 @@
+# Direct routing rules for DeepSeek API endpoints.
+#
+# Remote URL:
+# https://raw.githubusercontent.com/viosionyasuo-commits/Public-Proxy/main/deepseek-proxy.yaml
+#
+# api.deepseek.com covers:
+# - https://api.deepseek.com
+# - https://api.deepseek.com/anthropic
+
+rules:
+  - DOMAIN,api.deepseek.com,DIRECT
