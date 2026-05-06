@@ -19,14 +19,32 @@ rules:
   # Academic indexes and discovery platforms
   - DOMAIN-SUFFIX,scopus.com,DIRECT
   - DOMAIN-SUFFIX,webofscience.com,DIRECT
+  - DOMAIN,access.clarivate.com,DIRECT
   - DOMAIN-SUFFIX,clarivate.com,DIRECT
+  - DOMAIN-SUFFIX,clarivate.net,DIRECT
+  - DOMAIN-SUFFIX,webofknowledge.com,DIRECT
   - DOMAIN-SUFFIX,incites.clarivate.com,DIRECT
   - DOMAIN-SUFFIX,dimensions.ai,DIRECT
   - DOMAIN-SUFFIX,semanticscholar.org,DIRECT
+  - DOMAIN-SUFFIX,openalex.org,DIRECT
+  - DOMAIN-SUFFIX,lens.org,DIRECT
   - DOMAIN-SUFFIX,crossref.org,DIRECT
   - DOMAIN-SUFFIX,doi.org,DIRECT
+  - DOMAIN-SUFFIX,doaj.org,DIRECT
+  - DOMAIN-SUFFIX,core.ac.uk,DIRECT
+  - DOMAIN-SUFFIX,base-search.net,DIRECT
+  - DOMAIN-SUFFIX,openaire.eu,DIRECT
+  - DOMAIN-SUFFIX,unpaywall.org,DIRECT
   - DOMAIN-SUFFIX,orcid.org,DIRECT
   - DOMAIN-SUFFIX,worldcat.org,DIRECT
+  - DOMAIN-SUFFIX,researchgate.net,DIRECT
+  - DOMAIN-SUFFIX,ssrn.com,DIRECT
+  - DOMAIN-SUFFIX,arxiv.org,DIRECT
+  - DOMAIN-SUFFIX,biorxiv.org,DIRECT
+  - DOMAIN-SUFFIX,medrxiv.org,DIRECT
+  - DOMAIN-SUFFIX,europepmc.org,DIRECT
+  - DOMAIN-SUFFIX,dblp.org,DIRECT
+  - DOMAIN-SUFFIX,dblp.uni-trier.de,DIRECT
 
   # Academic publishers and full-text platforms
   - DOMAIN-SUFFIX,elsevier.com,DIRECT
