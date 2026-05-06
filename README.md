@@ -31,6 +31,7 @@ These rules force selected domains to use `DIRECT`, so services that depend on c
 The rules focus on:
 
 - Academic databases and publishers, such as Scopus, Web of Science, ScienceDirect, Springer Nature, Wiley, IEEE, ACM, PubMed, JSTOR, and similar services.
+- Academic discovery and index services, such as Clarivate access, Web of Knowledge, OpenAlex, Lens, DOAJ, CORE, BASE, OpenAIRE, Unpaywall, arXiv, bioRxiv, medRxiv, Europe PMC, and DBLP. Google Scholar is intentionally not included.
 - Campus login, library, SSO, CAS, and IP verification flows.
 - Mainland China video and streaming services, such as Tencent Video, iQIYI, Youku, Mango TV, Bilibili, Migu, and CCTV.
 - Mainland China daily services, such as Tencent, Alibaba, Alipay, Baidu, JD, Meituan, Douyin, Kuaishou, Xiaohongshu, NetEase, Weibo, and Zhihu.
